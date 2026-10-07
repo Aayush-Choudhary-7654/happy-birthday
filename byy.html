@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="byy" href="byy.js">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Quicksand:wght@300;400;500;600&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg,
+                #E4BACB 0%,
+                #EBC6D3 25%,
+                #F1D2DD 50%,
+                #F6DDE5 75%,
+                #FBE5EC 100%);
+            background-size: 400% 400%;
+            animation: gradientFlow 15s ease infinite;
+            font-family: 'Quicksand', sans-serif;
+            overflow-x: hidden;
+            color: #4a4a4a;
+        }
+
+        @keyframes gradientFlow {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 50% 100%;
+            }
+
+            100% {
+                background-position: 50% 0%;
+            }
+        }
+        .HBD h1 {
+            font-family: 'Bubblegum Sans', cursive;
+            font-size: 3rem;
+            color: #ff69b4;
+            text-shadow: 2px 2px 4px rgba(255, 105, 180, 0.3);
+            margin-bottom: 2rem;
+            margin-top: 2rem;
+            animation: bounce 1s ease infinite;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            animation: float 3s ease-in-out infinite;
+        }  
+        .gif {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 9rem;
+        }     
+    </style>
+</head>
+<body>
+    <div class="HBD">
+        <h1>Happy Birthday, My Love! 🎉</h1>
+    </div>
+    <div class="gif">
+        <img src="gif3.gif" alt="Birthday GIF">
+    </div>
+</body>
+</html>
